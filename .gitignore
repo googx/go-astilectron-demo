@@ -1,6 +1,60 @@
-.DS_Store
-Thumbs.db
+*.iml
+*.swp
+*.ipr
+*.iws
+*.jpg
 .idea/
-bind*
-output
-windows.syso
+*.exe
+*.o
+*.tar.gz
+.tmp/
+*.out
+*.log
+*.logs
+logs/
+output.txt
+__pycache__
+debug-*.json
+pkg/
+# wps and office
+~$*.docx
+~$*.doc
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+.~lock*
+# wps office
+.ideaDataSources/
+dataSources/
+httpRequests/
+.github/
+
+*.zip
+*.tar
+# c,cpp,go库文件.
+*.so
+*.dll
+*.lib
+*.s
+
+# grpc相关
+
+
+vendor/
+output/
+bind_*
+
+# webAssembly 相关
+
+*.wasm
+
+#cpp or c error file.
+core
+*.a
+# 项目环境
+
+*.time
+*.tmp
+
+node_modules/
